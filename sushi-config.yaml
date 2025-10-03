@@ -77,7 +77,7 @@ pages:
 #
 parameters:
   pin-canonicals : pin-all
-  path-expansion-params: '../../input/_resources/exp-params.json'
+#  path-expansion-params: '../../input/_resources/exp-params.json'
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
