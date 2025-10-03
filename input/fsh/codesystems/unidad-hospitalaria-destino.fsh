@@ -1,0 +1,41 @@
+CodeSystem: CSUnidadHospitalariaDestino
+Id: unidad-hospitalaria-destino
+Title: "Unidad Hospitalaria Destino"
+Description: "Códigos asociados a Unidad Funcional de destino si es que el paciente requiere hospitalización en el mismo establecimiento."
+* ^experimental = false
+* ^caseSensitive = true
+* ^status = #active
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #401 "Área Médica Adulto Cuidados Básicos"
+* #402 "Área Médica Adulto Cuidados Medios"
+* #403 "Área Médico-Quirúrgico Cuidados Básicos"
+* #404 "Área Médico-Quirúrgico Cuidados Medios"
+* #405 "Área Cuidados Intensivos Adultos"
+* #406 "Área Cuidados Intermedios Adultos"
+* #407 "Área Médica Pediátrica Cuidados Básicos"
+* #408 "Área Médica Pediátrica Cuidados Medios"
+* #409 "Área Médico-Quirúrgico Pediátrica Cuidados Básicos"
+* #410 "Área Médico-Quirúrgico Pediátrica Cuidados Medios"
+* #411 "Área Cuidados Intensivos Pediátricos"
+* #412 "Área Cuidados Intermedios Pediátricos"
+* #413 "Área Neonatología Cuidados Básicos"
+* #414 "Área Neonatología Cuidados Intensivos"
+* #415 "Área Neonatología Cuidados Intermedios"
+* #416 "Área Obstetricia"
+* #330 "Área Pensionado"
+* #418 "Área Psiquiatría Adulto Corta estadía"
+* #419 "Área Psiquiatría Adulto Mediana estadía"
+* #420 "Área Psiquiatría Adulto Larga estadía"
+* #421 "Área Psiquiatría Infanto-adolescente corta estadía"
+* #422 "Área Psiquiatría Infanto-adolescente mediana estadía"
+* #423 "Área Psiquiatría Forense Adulto evaluación e inicio tto."
+* #424 "Área Psiquiatría Forense Adulto tratamiento"
+* #425 "Área Psiquiatría Forense Infanto Adolescente evaluación e inicio tto."
+* #426 "Área Psiquiatría Forense Infanto Adolescente tratamiento"
+* #427 "Área Sociosanitaria Adulto"
+* #428 "Área de Hospitalización de Cuidados Intensivos en Psiquiatría Adulto"
+* #429 "Área de Hospitalización de Cuidados Intensivos en Psiquiatría Infanto Adolescente"

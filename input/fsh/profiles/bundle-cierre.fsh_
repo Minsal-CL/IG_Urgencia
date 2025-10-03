@@ -1,0 +1,39 @@
+Profile: BundleCierre
+Parent: Bundle
+Id: BundleCierre
+Title: "Bundle Cierre"
+Description: "Recurso Bundle para el cierre, en donde se puede actualizar la decisión de egreso, o registrar la fecha efectiva en que el paciente realiza el egreso"
+
+* type = #transaction
+
+* entry ^slicing.discriminator.type = #profile
+* entry ^slicing.discriminator.path = "resource"
+* entry ^slicing.rules = #closed
+
+* entry contains encuentro 1..1 MS
+  and profesionalCierre 1..1 
+
+* entry[encuentro] ^short = "Encuentro de Urgencia"
+  * fullUrl 1..1 MS
+  * fullUrl ^short = "URI de identificación del recurso dentro del Bundle"
+  * resource 1..1 MS
+  * resource ^short = "Recurso Encounter"
+  * resource only EncounterUrg
+  * request 1..1 MS
+  * request ^short = "Petición de actualización de recurso"
+    * method = #PUT
+    * url ^short = "URL para actualizar el Encounter usando identifier"
+
+* entry[profesionalCierre] ^short = "Profesional que realiza el egreso"
+  * fullUrl 1..1 MS
+  * fullUrl ^short = "URI de identificación del recurso dentro del Bundle"
+  * resource 1..1 MS
+  * resource ^short = "Recurso Practitioner"
+  * resource only PrestadorProfesional
+  * request 1..1 MS
+  * request ^short = "Petición de creación de recurso"
+    * method = #POST
+    * url = "Practitioner"
+    * ifNoneExist 1..1 MS
+    * ifNoneExist ^short = "Verificar existencia de profesional"
+    * ifNoneExist ^definition = "Se debe verificar que no exista un profesional con el mismo identificador"

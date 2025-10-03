@@ -1,0 +1,45 @@
+Profile: DocumentoAtencionUrg
+Parent: DocumentReference
+Id: DocumentoAtencionUrg
+Title: "Documento Atención Urgencia (DAU)"
+Description: "Perfil de DocumentReference para hacer envío del Documento de Atención de Urgencia, el cual es generado una vez se cierra la atención de urgencia"
+* status = #current
+
+* docStatus 1..1 
+* docStatus ^short = "Estado del documento, en este caso #final"
+* docStatus = #final
+
+* type 1..1
+* type ^short = "Tipo de documento"
+* type = $loinc#59258-4
+
+* subject 1..1
+* subject ^short = "Paciente"
+* subject only Reference(PatientUrg)
+
+* date 1..1
+* date ^short = "Fecha de creación del documento"
+
+* author 1..1
+* author ^short = "Profesional de la salud responsable del contenido del documento"
+* author only Reference(PrestadorProfesional)
+
+* custodian 1..1
+* custodian ^short = "Institución de salud responsable del documento"
+* custodian only Reference(EstablecimientoUrg)
+
+* content 1..1
+* content ^short = "Contenido del documento"
+  * attachment ^short = "Documento de Atención de Urgencia"
+    * contentType 1..1
+    * contentType = #application/pdf
+    * language 1..1
+    * language = #es-CL
+    * data 1..1
+    * data ^short = "Base64 del documento de atención de urgencia en formato PDF"
+
+* context 1..1
+* context ^short = "Contexto de creación del documento"
+  * encounter 1..1
+  * encounter ^short = "Encuentro de atención de urgencia"
+  * encounter only Reference(EncounterUrg)
