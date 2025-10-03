@@ -49,14 +49,13 @@ Description: "Paciente definido para el registro de atenciones de urgencia"
 * gender ^short = "Sexo Registral del paciente"
 * gender 1..1 MS
 
-// * address.use 1..1 MS
+* address.use 1..1 MS
 
-// * address.line 1..1 MS
-// * address.line ^short = "Calle o avenida, numero y casa o dpto"
-// * address.line ^definition = "Calle o avenida, numero y casa o dpto"
-// * address.period 0..1 MS
-// * address.period ^short = "Periodo de tiempo durante el  cual es válida la dirección entregada"
-
+* address.line 1..1 MS
+* address.line ^short = "Calle o avenida, numero y casa o dpto"
+* address.line ^definition = "Calle o avenida, numero y casa o dpto"
+* address.period 0..1 MS
+* address.period ^short = "Periodo de tiempo durante el  cual es válida la dirección entregada"
 
 * birthDate 0..1 MS
 

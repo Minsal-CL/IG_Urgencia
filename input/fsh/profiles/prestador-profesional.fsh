@@ -82,17 +82,12 @@ Description: "Profesional médico u odontólogo que participa en la atención de
     * ^short = "Ranking de preferencia en el uso del contacto"
     * ^definition = "Ranking de preferencia en el uso del contacto"
 
-* address only $cl-address
-* 
-// * address 0..1 MS
-// * address.use 1..1 MS
-// * address.use = #work
-// * address ^short = "Dirección según Guía Core-CL"
-// * address.line 1..1 MS
-// * address.line ^short = "Calle o avenida, numero y casa o dpto"
-// * address.line ^definition = "Calle o avenida, numero y casa o dpto"
-// * address.period 0..1 MS
-// * address.period ^short = "Periodo de tiempo durante el  cual es válida la dirección entregada"
+* address.use 1..1 MS
+* address.use = #work
+* address ^short = "Dirección según Guía Core-CL"
+* address.line 1..1 MS
+* address.line ^short = "Calle o avenida, numero y casa o dpto"
+* address.line ^definition = "Calle o avenida, numero y casa o dpto"
 
 * qualification 1..* MS
 * qualification.code from VSTituloProfesional (example)
