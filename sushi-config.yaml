@@ -63,7 +63,7 @@ pages:
   spec-transactions.md:
     title: Transacciones
   spec-message.md:
-    title: Mensajería
+    title: Operaciones
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
