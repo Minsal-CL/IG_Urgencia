@@ -100,7 +100,7 @@ menu:
     Eventos: spec-events.html
     Transacciones: spec-transactions.html
     Perfiles: artifacts.html#structures-resource-profiles
-    Mensajería: spec-message.html
+    Operaciones: spec-message.html
   Terminologías: artifacts.html#terminology-value-sets
   Artefactos: artifacts.html
 

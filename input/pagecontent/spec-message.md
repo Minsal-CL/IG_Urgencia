@@ -1,11 +1,11 @@
 El mecanismo de intercambio definido para las transacciones es `RESTful API`. En este marco RESTful, las transacciones se realizan directamente sobre el recurso del servidor utilizando una solicitud/respuesta HTTP. 
 
-### Estructura de los mensajes
+### Estructura de la Operación
 - Es importante considerar que la URL para el envío del mensaje será: `[base]` (Ej: https://fhir.example.com/fhir)
 - Agrupador de Recursos: Un recurso de tipo `Bundle` del tipo `transaction` (type=transaction)
 - Otros recursos: Necesariamente los recursos referenciados deben ser incluidos dentro del mismo Bundle como entradas adicionales.
 
-### Mensaje de Envío
+### Operación de Envío
 - El recurso del tipo Bundle debe ser del tipo transaction (type=transaction)
 - Se debe indicar en el atributo `request` el tipo de transacción a realizar `(POST/PUT)`
 - Ejemplo para evento Admisión:
@@ -79,7 +79,7 @@ El mecanismo de intercambio definido para las transacciones es `RESTful API`. En
 }
 ```
 
-### Mensaje de Respuesta
+### Respuestas de la Operación
 
 #### Respuesta exitosa
 - El recurso Bundle debe ser del tipo `transaction-response` (type=transaction-response)
