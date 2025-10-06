@@ -21,7 +21,3 @@ Este evento corresponde al conjunto de actividades clínicas y administrativas q
 ### Egreso
 
 El evento de egreso se realiza al finalizar la atención del paciente, en donde posterior a hacer la evaluación y tratamiento, el profesional toma la decisión de terminar con la atención. El hito es el cierre del dato de urgencia (DAU), el cual debe ser entregado al usuario o tutor, en el caso de destino ambulatorio o adjuntar a la documentación en caso de derivación u hospitalización (ficha clínica).
-
-### Cierre (Egreso Efectivo)
-
-Este evento es opcional y solo se considera concluido cuando ocurre un egreso efectivo. Independientemente de la modalidad de egreso (alta, traslado, derivación, abandono o fallecimiento), el paciente puede permanecer en espera de su salida definitiva por diversas razones, ocupando una cama de urgencia durante ese tiempo. Por lo tanto, este evento debe permitir registrar esos períodos de espera y cerrarse únicamente cuando el paciente deje la cama de urgencia. No es necesario utilizarlo si el egreso efectivo ya se registró en el evento correspondiente.

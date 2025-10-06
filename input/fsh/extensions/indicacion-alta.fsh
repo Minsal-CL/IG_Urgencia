@@ -13,3 +13,4 @@ Context: Encounter.hospitalization.dischargeDisposition
 
 * extension[FechaIndicacion] ^short = "Fecha de indicación de alta"
   * value[x] only dateTime
+

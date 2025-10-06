@@ -1,0 +1,8 @@
+{
+  "http://unstats.un.org/unsd/methods/m49/m49.htm" : null,
+  "http://terminology.hl7.org/CodeSystem/participant-type" : {
+    "server" : "http://tx.fhir.org/r4",
+    "filename" : "cs-3f3ff272-8d3e-40d9-9683-82b9b0752afd.json"
+  },
+  "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais" : null
+}

@@ -12,7 +12,7 @@ status: draft # draft | active | retired | unknown
 version: 0.1.2
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
-releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: qa-preview # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 jurisdiction: urn:iso:std:iso:3166#CL "Chile"
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
@@ -77,7 +77,8 @@ pages:
 #
 parameters:
   pin-canonicals : pin-all
-#  path-expansion-params: '../../input/_resources/exp-params.json'
+  path-expansion-params: '../../input/_resources/exp-params.json'
+  path-tx-cache: '../../input-cache/txcache'
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #

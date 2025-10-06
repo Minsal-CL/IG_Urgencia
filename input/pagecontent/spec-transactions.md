@@ -208,7 +208,7 @@ La respuesta al mensaje enviado debe ser un `OperationOutcome` que contiene los 
 - Creación de un egreso de urgencia para un paciente
 
 
-### Transacción evento Cierre
+<!-- ### Transacción evento Cierre
 
 #### Descripción
 
@@ -259,4 +259,4 @@ La respuesta al mensaje enviado debe ser un `OperationOutcome` que contiene los 
 
 #### Acciones esperadas
 
-- Creación de un egreso efectivo de urgencia para un paciente
+- Creación de un egreso efectivo de urgencia para un paciente -->

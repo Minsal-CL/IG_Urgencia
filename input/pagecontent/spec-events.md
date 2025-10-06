@@ -35,12 +35,5 @@
       </td>
       <td>La respuesta debe indicar si se produjeron errores o indicar que los recursos han sido creados</td>
     </tr>
-      <tr>
-      <td><strong>Cierre</strong></td>
-      <td>
-        Este evento es opcional y solo se considera concluido cuando ocurre un egreso efectivo. Independientemente de la modalidad de egreso (alta, traslado, derivación, abandono o fallecimiento), el paciente puede permanecer en espera de su salida definitiva por diversas razones, ocupando una cama de urgencia durante ese tiempo. Por lo tanto, este evento debe permitir registrar esos períodos de espera y cerrarse únicamente cuando el paciente deje la cama de urgencia. No es necesario utilizarlo si el egreso efectivo ya se registró en el evento correspondiente.
-      </td>
-      <td>La respuesta debe indicar si se produjeron errores o indicar que los recursos han sido creados</td>
-    </tr>
   </tbody>
 </table>

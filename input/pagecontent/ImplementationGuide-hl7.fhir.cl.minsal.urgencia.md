@@ -32,5 +32,4 @@ name: Atención de Urgencia Interoperable |*Version*: 0.1.2|
 
 - code: copyrightyear <br/>value: 2025+
 - code: releaselabel  <br/>value: ci-build
-- code: path-tx-cache <br/>value: input/txcache
 - code: path-expansion-params <br/>value: ../../input/_resources/exp-params.json

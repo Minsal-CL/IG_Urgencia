@@ -6,7 +6,6 @@ Esta guía de implementación aborda el proceso de atención de urgencia, que se
 - **Categorización**: Priorización de la oportunidad de la atención según el riesgo vital y la complejidad.
 - **Atención**: Atención de un profesional de salud.
 - **Egreso**: Egreso de la atención de urgencia e indicar el destino del usuario.
-- **Cierre**: El registro de la fecha de egreso efectivo del establecimiento de urgencia o registro del cambio de destino del paciente.
 
 ### Introducción
 

@@ -1,0 +1,16 @@
+{
+    "package-id": "hl7.fhir.cl.minsal.urgencia",
+    "version": "0.1.2-qa-preview",
+    "desc": "Guía de implementación para la interoperabilidad de la atención de urgencia en Chile, versión de prueba para la hackaton",
+    "path": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/0.1.2-qa-preview",
+    "mode": "working",
+    "changes": "changes.html",
+    "status": "draft",
+    "sequence": "STU1",
+    "first": true,
+    "fhirversion": "4.0.1",
+    "category": "Clinical Records",
+    "title": "Atención de Urgencia Interoperable",
+    "introduction": "Guía de implementación para la interoperabilidad de la atención de urgencia en Chile.",
+    "ci-build": "https://build.fhir.org/ig/Minsal-CL/IG_Urgencia"
+}
