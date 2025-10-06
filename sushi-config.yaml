@@ -9,7 +9,7 @@ name: AtencionUrgenciaInteroperable
 title: Atención de Urgencia Interoperable
 description: Guía de implementación para la interoperabilidad de la atención de urgencia en Chile.
 status: draft # draft | active | retired | unknown
-version: 0.1.2
+version: 0.1.2-qa-preview
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 releaseLabel: qa-preview # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
