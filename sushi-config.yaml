@@ -78,7 +78,7 @@ pages:
 parameters:
   pin-canonicals : pin-all
   path-expansion-params: '../../input/_resources/exp-params.json'
-  path-tx-cache: '../../input-cache/txcache'
+#  path-tx-cache: '../../input-cache/txcache'
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
