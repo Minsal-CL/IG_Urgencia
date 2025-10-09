@@ -1,6 +1,6 @@
 ### Alcance
 
-Esta guía de implementación aborda el proceso de atención de urgencia, que se lleva a cabo en la Unidad de Emergencia Hospitalaria. Para representar este proceso se definen 5 (cinco) eventos, los cuales son:
+Esta guía de implementación aborda el proceso de atención de urgencia, que se lleva a cabo en la Unidad de Emergencia Hospitalaria. Para representar este proceso se definen 4 (cuatro) eventos, los cuales son:
 
 - **Admisión**: Apertura del Dato de Atención de Urgencia (DAU).
 - **Categorización**: Priorización de la oportunidad de la atención según el riesgo vital y la complejidad.
