@@ -29,7 +29,7 @@ Este proyecto fue ejecutado por un equipo multidisciplinario del Ministerio de S
 
 ##### Específicos
 
-- Lograr el intercambio de información desde el ingreso del paciente a una atención de urgencia, hasta el egreso de este por las diferentes casuísticas desde los registros clínicos electrónicos implementados en los establecimientos de salud pública del país y la plataforma de interoperabilidad de MINSAL.
+- Lograr el intercambio de información desde el ingreso del paciente a una atención de urgencia, hasta el egreso de este por las diferentes causas desde los registros clínicos electrónicos implementados en los establecimientos de salud pública del país y la plataforma de interoperabilidad de MINSAL.
 - Promover la estandarización de los datos involucrados en el proceso de atención de urgencia.
 - Proporcionar directrices y reglas comunes que faciliten la adopción de estándares de interoperabilidad semánticos y sintácticos, tanto por parte de profesionales clínicos como para los desarrolladores en toda la red asistencial.
 - Garantizar que los datos se representen y se compartan de manera coherente entre sistemas, evitando ambigüedades y errores en la interpretación de la información.
