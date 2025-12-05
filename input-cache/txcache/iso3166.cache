@@ -3955,7 +3955,6 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -3982,6 +3981,60 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "http://localhost/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "152",
+  "display" : "Chile"
+}, "valueSet" :null, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0", "version": "1.9.4", "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"

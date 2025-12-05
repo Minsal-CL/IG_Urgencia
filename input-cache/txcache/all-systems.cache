@@ -20617,7 +20617,6 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -20647,7 +20646,6 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -20677,7 +20675,6 @@ v: {
   "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/CodigoExamen|0.1.2'; The provided code 'http://snomed.info/sct#84100007' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/CodigoExamen|0.1.2'",
   "class" : "UNKNOWN",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -20747,7 +20744,6 @@ v: {
   "system" : "http://snomed.info/sct",
   "version" : "http://snomed.info/sct/21000325107/version/20250915",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -20773,7 +20769,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -20803,6 +20798,254 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "http://localhost/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "CL",
+    "display" : "Chile"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"es-CL", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://hl7.org/fhir/sid/icd-10",
+    "code" : "K35",
+    "display" : "Acute appendicitis"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/VSTerminologiasDiag", "version": "0.1.2-qa-preview", "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "Acute appendicitis",
+  "code" : "K35",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "version" : "2019-covid-expanded",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "84100007"
+  }],
+  "text" : "Anamnesis"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/CodigoExamen", "version": "0.1.2-qa-preview", "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+  "severity" : "error",
+  "error" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/CodigoExamen|0.1.2-qa-preview'; The provided code 'http://snomed.info/sct#84100007' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/CodigoExamen|0.1.2-qa-preview'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "this-code-not-in-vs"
+      }],
+      "text" : "The provided code 'http://snomed.info/sct#84100007' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/CodigoExamen|0.1.2-qa-preview'"
+    },
+    "location" : ["CodeableConcept.coding[0].code"],
+    "expression" : ["CodeableConcept.coding[0].code"]
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "TX_GENERAL_CC_ERROR_MESSAGE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "No valid coding was found for the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/CodigoExamen|0.1.2-qa-preview'"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://snomed.info/sct",
+    "code" : "73211009",
+    "display" : "Diabetes mellitus"
+  }]
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/VSTerminologiasDiag", "version": "0.1.2-qa-preview", "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "Diabetes mellitus",
+  "code" : "73211009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "NO_VALID_DISPLAY_FOUND_LANG_NONE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "display-comment"
+      }],
+      "text" : "'Diabetes mellitus' is the default display; the code system http://snomed.info/sct has no Display Names for the language es-CL"
+    },
+    "location" : ["CodeableConcept.coding[0].display"],
+    "expression" : ["CodeableConcept.coding[0].display"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "kg"
+}, "url": "http://hl7.org/fhir/ValueSet/ucum-bodyweight", "version": "4.0.1", "langs":"es-CL", "useServer":"true", "useClient":"true", "guessSystem":"true", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "kg",
+  "code" : "kg",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/VSTerminologiasDiag", "version": "0.1.2-qa-preview"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.hl7chile.cl/r4: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' could not be found, so the value set cannot be expanded. Valid versions: http://snomed.info/sct/21000325107/version/20250915,http://snomed.info/sct/900000000000207008/version/20251101"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/VSTerminologiasDiag", "version": "0.1.2-qa-preview"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from https://tx.hl7chile.cl/r4: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' could not be found, so the value set cannot be expanded. Valid versions: http://snomed.info/sct/21000325107/version/20250915,http://snomed.info/sct/900000000000207008/version/20251101"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "urn:iso:std:iso:3166",
+    "code" : "CL",
+    "display" : "Chile"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"

@@ -301,7 +301,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -328,7 +327,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -355,7 +353,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -382,7 +379,6 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "http://localhost/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -409,6 +405,140 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "http://localhost/r4",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "kg"
+}, "valueSet" :null, "langs":"es-CL", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "kg",
+  "code" : "kg",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mg/dL"
+}, "valueSet" :null, "langs":"es-CL", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "mg/dL",
+  "code" : "mg/dL",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "/min"
+}, "valueSet" :null, "langs":"es-CL", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "/min",
+  "code" : "/min",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "kg"
+}, "url": "http://hl7.org/fhir/ValueSet/ucum-vitals-common", "version": "4.0.1", "langs":"es-CL", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "kg",
+  "code" : "kg",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "/min"
+}, "url": "http://hl7.org/fhir/ValueSet/ucum-vitals-common", "version": "4.0.1", "langs":"es-CL", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "/min",
+  "code" : "/min",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
   "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
