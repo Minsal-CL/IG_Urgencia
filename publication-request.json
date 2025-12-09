@@ -1,11 +1,11 @@
 {
     "package-id": "hl7.fhir.cl.minsal.urgencia",
-    "version": "0.1.2-qa-preview",
+    "version": "0.1.2-ballot",
     "desc": "Guía de implementación para la interoperabilidad de la atención de urgencia en Chile, versión de prueba para la hackaton",
     "path": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/0.1.2-qa-preview",
     "mode": "working",
     "changes": "changes.html",
-    "status": "draft",
+    "status": "ballot",
     "sequence": "STU1",
     "first": true,
     "fhirversion": "4.0.1",

@@ -5,8 +5,8 @@
 }, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -17,8 +17,10 @@ v: {
   "display" : "Clinical finding (finding)",
   "code" : "404684003",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, en-US, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://snomed.info/sct#404684003 (\"\")]\"\r\n16 0    : 0ms  : Check \"http://snomed.info/sct#404684003\"\r\n16 0    : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101\" (content = complete)\r\n",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -31,8 +33,8 @@ v: {
 }, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -43,8 +45,10 @@ v: {
   "display" : "Clinical finding (finding)",
   "code" : "404684003",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://snomed.info/sct#404684003 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://snomed.info/sct#404684003\"\r\n0 0     : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101\" (content = complete)\r\n",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -60,8 +64,8 @@ v: {
 }, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -72,8 +76,10 @@ v: {
   "display" : "Amoxicillin (substance)",
   "code" : "372687004",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://snomed.info/sct#372687004 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://snomed.info/sct#372687004\"\r\n0 0     : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101\" (content = complete)\r\n",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -89,8 +95,8 @@ v: {
 }, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -101,8 +107,10 @@ v: {
   "display" : "History taking",
   "code" : "84100007",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://snomed.info/sct#84100007 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://snomed.info/sct#84100007\"\r\n0 0     : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101\" (content = complete)\r\n",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -118,8 +126,8 @@ v: {
 }, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -130,8 +138,10 @@ v: {
   "display" : "Acetaminophen",
   "code" : "387517004",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://snomed.info/sct#387517004 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://snomed.info/sct#387517004\"\r\n0 0     : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101\" (content = complete)\r\n",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -147,8 +157,8 @@ v: {
 }, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -159,8 +169,10 @@ v: {
   "display" : "Self inflicted injury",
   "code" : "276853009",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://snomed.info/sct#276853009 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://snomed.info/sct#276853009\"\r\n0 0     : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101\" (content = complete)\r\n",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -176,8 +188,8 @@ v: {
 }, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
   "resourceType" : "Parameters",
   "parameter" : [{
-    "name" : "x-system-cache-id",
-    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -188,15 +200,17 @@ v: {
   "display" : "Excision of axillary lymph node",
   "code" : "234262008",
   "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20250201",
-  "server" : "https://tx.fhir.org/r4",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://snomed.info/sct#234262008 (\"\")]\"\r\n0 0     : 0ms  : Check \"http://snomed.info/sct#234262008\"\r\n0 0     : 0ms  : Using CodeSystem \"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101\" (content = complete)\r\n",
+  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
 }
 -------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
+{"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "inactive" : true,
@@ -215,18 +229,18 @@ v: {
   }
 }}####
 e: {
-  "source" : tx.fhir.org,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ba6ce2a5-2b5c-4828-aaf8-f5a4b922cf2b",
-    "timestamp" : "2025-10-03T17:40:45.526Z",
+    "identifier" : "urn:uuid:537ae8fa-a9e3-4f0a-98fd-cbb081f1ecfd",
+    "timestamp" : "2025-12-09T14:37:07.982Z",
     "total" : 3,
     "offset" : 0,
     "parameter" : [{
       "name" : "excludeNested",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "name" : "offset",
@@ -238,11 +252,11 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
     },
     {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+      "name" : "system-version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -262,406 +276,5 @@ e: {
   }
 },
   "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "404684003"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250915"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "Clinical finding (finding)",
-  "code" : "404684003",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/21000325107/version/20250915",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "404684003"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250915"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "hallazgo clínico",
-  "code" : "404684003",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/21000325107/version/20250915",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "372687004"
-  }],
-  "text" : "Alergia a la amoxicilina"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250915"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "amoxicilina (sustancia)",
-  "code" : "372687004",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/21000325107/version/20250915",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "84100007"
-  }],
-  "text" : "Anamnesis"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250915"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "anamnesis",
-  "code" : "84100007",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/21000325107/version/20250915",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "387517004"
-  }],
-  "text" : "Paracetamol 500mg tablet"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250915"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "acetaminofeno",
-  "code" : "387517004",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/21000325107/version/20250915",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "276853009"
-  }],
-  "text" : "Lesión Auto Infligida"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250915"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "lesión autoinfligida",
-  "code" : "276853009",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/21000325107/version/20250915",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "234262008"
-  }],
-  "text" : "Sutura de herida"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/21000325107/version/20250915"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "resección de ganglio linfático axilar",
-  "code" : "234262008",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/21000325107/version/20250915",
-  "server" : "http://localhost/r4",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "404684003"
-}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "Clinical finding (finding)",
-  "code" : "404684003",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "404684003"
-}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "Clinical finding (finding)",
-  "code" : "404684003",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "372687004"
-  }],
-  "text" : "Alergia a la amoxicilina"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "Amoxicillin (substance)",
-  "code" : "372687004",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "84100007"
-  }],
-  "text" : "Anamnesis"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "History taking",
-  "code" : "84100007",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "387517004"
-  }],
-  "text" : "Paracetamol 500mg tablet"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "Acetaminophen",
-  "code" : "387517004",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "276853009"
-  }],
-  "text" : "Lesión Auto Infligida"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "Self inflicted injury",
-  "code" : "276853009",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "coding" : [{
-    "system" : "http://snomed.info/sct",
-    "code" : "234262008"
-  }],
-  "text" : "Sutura de herida"
-}, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
-  "resourceType" : "Parameters",
-  "parameter" : [{
-    "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
-  },
-  {
-    "name" : "defaultDisplayLanguage",
-    "valueCode" : "es-CL"
-  }]
-}}####
-v: {
-  "display" : "Excision of axillary lymph node",
-  "code" : "234262008",
-  "system" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-  "server" : "https://tx.hl7chile.cl/r4",
-  "unknown-systems" : "",
-  "issues" : {
-  "resourceType" : "OperationOutcome"
-}
-
 }
 -------------------------------------------------------------------------------------
