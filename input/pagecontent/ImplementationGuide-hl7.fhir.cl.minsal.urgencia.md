@@ -28,6 +28,10 @@ name: Atención de Urgencia Interoperable |*Version*: 0.1.2|
 
 {% include ip-statements.xhtml %}
 
+### Parámetros de expansión
+
+{% include expansion-params.xhtml %}
+
 ### Parametros de Configuración
 
 - code: copyrightyear <br/>value: 2025+

@@ -7,7 +7,7 @@
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -20,8 +20,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"Chile\")]\"\r\n0 0     : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n0 0     : 0ms  : Using CodeSystem \"urn:iso:std:iso:3166|2018\" (content = complete)\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"Chile\")]\"\r\n0 0     : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n0 0     : 0ms  : Using CodeSystem \"urn:iso:std:iso:3166|2018\" (content = complete)\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -35,7 +34,7 @@ v: {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -48,8 +47,7 @@ v: {
   "system" : "urn:iso:std:iso:3166",
   "version" : "2018",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4 for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n0 0     : 0ms  : Prepare include: \"(urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894)\"\r\n0 0     : 0ms  : CodeSystem found: \"urn:iso:std:iso:3166|2018\"\r\n0 0     : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"\")]\"\r\n0 0     : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n0 0     : 0ms  : CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\r\n15 15   : 15ms : check code in (urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894) at Coding\r\n15 0    : 15ms : Code \"152\" found in urn:iso:std:iso:3166|2018\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4 for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"(urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894)\"\r\n15 0    : 0ms  : CodeSystem found: \"urn:iso:std:iso:3166|2018\"\r\n15 0    : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"\")]\"\r\n15 0    : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n15 0    : 0ms  : CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\r\n15 0    : 0ms  : check code in (urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894) at Coding\r\n15 0    : 0ms  : Code \"152\" found in urn:iso:std:iso:3166|2018\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -76,8 +74,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0f287a2f-91fa-428f-95ae-2e27a6b3c557",
-    "timestamp" : "2025-12-09T14:40:27.429Z",
+    "identifier" : "urn:uuid:eb3b0e18-ff0b-48ce-b9ed-4bebdfcd164f",
+    "timestamp" : "2025-12-10T18:28:24.764Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -1366,8 +1364,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:65a692e4-57cc-458e-8ab4-5634ffc74753",
-    "timestamp" : "2025-12-09T14:40:28.552Z",
+    "identifier" : "urn:uuid:1f6b7757-ed84-456e-9b1b-c146fb10b14c",
+    "timestamp" : "2025-12-10T18:28:25.727Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -2656,8 +2654,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:bc7bd534-d784-4ce6-88e7-4f92a9a80aad",
-    "timestamp" : "2025-12-09T14:40:29.655Z",
+    "identifier" : "urn:uuid:68e48734-496d-4ba9-8406-f18e64c896ff",
+    "timestamp" : "2025-12-10T18:28:26.870Z",
     "total" : 249,
     "offset" : 0,
     "parameter" : [{
@@ -3924,5 +3922,62 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "152",
+  "display" : "Chile"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"Chile\")]\"\r\n0 0     : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n0 0     : 0ms  : Using CodeSystem \"urn:iso:std:iso:3166|2018\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0", "version": "1.9.4", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais--0|1.9.4 for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"(urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894)\"\r\n16 0    : 0ms  : CodeSystem found: \"urn:iso:std:iso:3166|2018\"\r\n16 0    : 0ms  : Validate \"[urn:iso:std:iso:3166#152 (\"\")]\"\r\n16 0    : 0ms  : Check \"urn:iso:std:iso:3166#152\"\r\n16 0    : 0ms  : CodeSystem found: urn:iso:std:iso:3166|2018 for urn:iso:std:iso:3166\r\n16 0    : 0ms  : check code in (urn:iso:std:iso:3166)(004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,248,250,254,258,260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,384,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,499,500,504,508,512,516,520,524,528,531,533,534,535,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,652,654,659,660,662,663,666,670,674,678,682,686,688,690,694,702,703,704,705,706,710,716,724,728,729,732,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,831,832,833,834,840,850,854,858,860,862,876,882,887,894) at Coding\r\n16 0    : 0ms  : Code \"152\" found in urn:iso:std:iso:3166|2018\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
 }
 -------------------------------------------------------------------------------------

@@ -9,7 +9,7 @@
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -22,8 +22,7 @@ v: {
   "system" : "http://hl7.org/fhir/sid/icd-10",
   "version" : "2019-covid-expanded",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://hl7.org/fhir/sid/icd-10#K35 (\"Acute appendicitis\")]\"\r\n16 0    : 0ms  : Check \"http://hl7.org/fhir/sid/icd-10#K35\"\r\n16 0    : 0ms  : Using CodeSystem \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://hl7.org/fhir/sid/icd-10#K35 (\"Acute appendicitis\")]\"\r\n16 0    : 0ms  : Check \"http://hl7.org/fhir/sid/icd-10#K35\"\r\n16 0    : 0ms  : Using CodeSystem \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -42,5 +41,36 @@ v: {
 e: {
   "from-server" : true,
   "error" : "Error from https://tx.hl7chile.cl/r4: The value set '' expansion has too many codes to display (>10000)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://hl7.org/fhir/sid/icd-10",
+    "code" : "K35",
+    "display" : "Acute appendicitis"
+  }]
+}, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Acute appendicitis",
+  "code" : "K35",
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "version" : "2019-covid-expanded",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://hl7.org/fhir/sid/icd-10#K35 (\"Acute appendicitis\")]\"\r\n15 0    : 0ms  : Check \"http://hl7.org/fhir/sid/icd-10#K35\"\r\n15 0    : 0ms  : Using CodeSystem \"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded (from fhir.tx.support.r4#0.32.0)\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
 }
 -------------------------------------------------------------------------------------

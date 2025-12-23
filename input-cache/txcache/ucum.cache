@@ -6,7 +6,7 @@
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -19,8 +19,7 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n47 47   : 16ms : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n47 0    : 16ms : Parameters: disp-lang=es-CL, default-to-latest\r\n47 0    : 16ms : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n47 0    : 16ms : Prepare include: \"()\"\r\n47 0    : 16ms : Validate \"[http://unitsofmeasure.org#kg (\"\")]\"\r\n47 0    : 16ms : Check \"http://unitsofmeasure.org#kg\"\r\n47 0    : 16ms : Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n156 156 : 31ms : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n156 0   : 31ms : Parameters: disp-lang=es-CL, default-to-latest\r\n156 0   : 31ms : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n156 0   : 31ms : Prepare include: \"()\"\r\n156 0   : 31ms : Validate \"[http://unitsofmeasure.org#kg (\"\")]\"\r\n156 0   : 31ms : Check \"http://unitsofmeasure.org#kg\"\r\n187 31  : 62ms : Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -34,7 +33,7 @@ v: {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -47,8 +46,7 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://unitsofmeasure.org#mg/dL (\"\")]\"\r\n15 0    : 0ms  : Check \"http://unitsofmeasure.org#mg/dL\"\r\n15 0    : 0ms  : Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://unitsofmeasure.org#mg/dL (\"\")]\"\r\n15 0    : 0ms  : Check \"http://unitsofmeasure.org#mg/dL\"\r\n15 0    : 0ms  : Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -62,7 +60,7 @@ v: {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -75,8 +73,7 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://unitsofmeasure.org#/min (\"\")]\"\r\n16 0    : 0ms  : Check \"http://unitsofmeasure.org#/min\"\r\n16 0    : 0ms  : Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"()\"\r\n15 0    : 0ms  : Validate \"[http://unitsofmeasure.org#/min (\"\")]\"\r\n15 0    : 0ms  : Check \"http://unitsofmeasure.org#/min\"\r\n15 0    : 0ms  : Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -90,7 +87,7 @@ v: {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -103,8 +100,7 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1 for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n16 0    : 0ms  : Prepare include: \"(http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2)\"\r\n16 0    : 0ms  : CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n16 0    : 0ms  : Validate \"[http://unitsofmeasure.org#kg (\"\")]\"\r\n16 0    : 0ms  : Check \"http://unitsofmeasure.org#kg\"\r\n16 0    : 0ms  : CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n16 0    : 0ms  : check code in (http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2) at Coding\r\n16 0    : 0ms  : Code \"kg\" found in http://unitsofmeasure.org|2.2\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1 for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"(http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2)\"\r\n0 0     : 0ms  : CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n0 0     : 0ms  : Validate \"[http://unitsofmeasure.org#kg (\"\")]\"\r\n0 0     : 0ms  : Check \"http://unitsofmeasure.org#kg\"\r\n0 0     : 0ms  : CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n0 0     : 0ms  : check code in (http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2) at Coding\r\n0 0     : 0ms  : Code \"kg\" found in http://unitsofmeasure.org|2.2\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -118,7 +114,7 @@ v: {
   "resourceType" : "Parameters",
   "parameter" : [{
     "name" : "system-version",
-    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008"
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
   },
   {
     "name" : "defaultDisplayLanguage",
@@ -131,8 +127,7 @@ v: {
   "system" : "http://unitsofmeasure.org",
   "version" : "2.2",
   "server" : "https://tx.hl7chile.cl/r4",
-  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1 for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008\r\n0 0     : 0ms  : Prepare include: \"(http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2)\"\r\n0 0     : 0ms  : CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n0 0     : 0ms  : Validate \"[http://unitsofmeasure.org#/min (\"\")]\"\r\n0 0     : 0ms  : Check \"http://unitsofmeasure.org#/min\"\r\n0 0     : 0ms  : CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n0 0     : 0ms  : check code in (http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2) at Coding\r\n0 0     : 0ms  : Code \"/min\" found in http://unitsofmeasure.org|2.2\r\n",
-  "unknown-systems" : "",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1 for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"(http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2)\"\r\n0 0     : 0ms  : CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n0 0     : 0ms  : Validate \"[http://unitsofmeasure.org#/min (\"\")]\"\r\n0 0     : 0ms  : Check \"http://unitsofmeasure.org#/min\"\r\n0 0     : 0ms  : CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n0 0     : 0ms  : check code in (http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2) at Coding\r\n0 0     : 0ms  : Code \"/min\" found in http://unitsofmeasure.org|2.2\r\n",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -202,8 +197,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:db61389b-9d90-466d-b240-77feb27b5b5e",
-    "timestamp" : "2025-12-09T14:38:41.093Z",
+    "identifier" : "urn:uuid:9cf7a1ff-533e-435c-b6b5-c6b245b22de5",
+    "timestamp" : "2025-12-10T18:26:50.346Z",
     "total" : 12,
     "offset" : 0,
     "parameter" : [{
@@ -285,5 +280,145 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "kg"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "kg",
+  "code" : "kg",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n313 313 : 47ms : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n313 0   : 47ms : Parameters: disp-lang=en, default-to-latest\r\n328 15  : 62ms : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n360 32  : 94ms : Prepare include: \"()\"\r\n360 0   : 94ms : Validate \"[http://unitsofmeasure.org#kg (\"\")]\"\r\n360 0   : 94ms : Check \"http://unitsofmeasure.org#kg\"\r\n391 31  : 125ms : Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mg/dL"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "mg/dL",
+  "code" : "mg/dL",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"()\"\r\n0 0     : 0ms  : Validate \"[http://unitsofmeasure.org#mg/dL (\"\")]\"\r\n0 0     : 0ms  : Check \"http://unitsofmeasure.org#mg/dL\"\r\n0 0     : 0ms  : Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "/min"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "/min",
+  "code" : "/min",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://unitsofmeasure.org#/min (\"\")]\"\r\n16 0    : 0ms  : Check \"http://unitsofmeasure.org#/min\"\r\n16 0    : 0ms  : Using CodeSystem \"http://unitsofmeasure.org|2.2\" (content = complete)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "kg"
+}, "url": "http://hl7.org/fhir/ValueSet/ucum-vitals-common", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "kg",
+  "code" : "kg",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1 for validation purposes\r\n0 0     : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n0 0     : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n0 0     : 0ms  : Prepare include: \"(http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2)\"\r\n16 16   : 16ms : CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n16 0    : 16ms : Validate \"[http://unitsofmeasure.org#kg (\"\")]\"\r\n16 0    : 16ms : Check \"http://unitsofmeasure.org#kg\"\r\n16 0    : 16ms : CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n16 0    : 16ms : check code in (http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2) at Coding\r\n16 0    : 16ms : Code \"kg\" found in http://unitsofmeasure.org|2.2\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "/min"
+}, "url": "http://hl7.org/fhir/ValueSet/ucum-vitals-common", "version": "4.0.1", "langs":"en", "useServer":"true", "useClient":"true", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "/min",
+  "code" : "/min",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/ucum-vitals-common|4.0.1 for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"(http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2)\"\r\n16 0    : 0ms  : CodeSystem found: \"http://unitsofmeasure.org|2.2\"\r\n16 0    : 0ms  : Validate \"[http://unitsofmeasure.org#/min (\"\")]\"\r\n16 0    : 0ms  : Check \"http://unitsofmeasure.org#/min\"\r\n16 0    : 0ms  : CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\r\n16 0    : 0ms  : check code in (http://unitsofmeasure.org)(%,cm,[in_i],kg,g,[lb_av],Cel,[degF],mm[Hg],/min,kg/m2,m2) at Coding\r\n16 0    : 0ms  : Code \"/min\" found in http://unitsofmeasure.org|2.2\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
 }
 -------------------------------------------------------------------------------------

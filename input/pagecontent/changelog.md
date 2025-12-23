@@ -4,7 +4,6 @@
 - Se incluye correción de warning en QA
 - Se agrega copyright de hl7
 - Se mejora el workflow para incluir texto
-- 
 
 ### versión 0.1.1
 - Perfil DocumentReferenceDAU

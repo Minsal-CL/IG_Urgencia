@@ -10,9 +10,9 @@ Description: "Códigos de los tipos de participante de un Encounter"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * include codes from system CSTipoParticipanteUrgencia
-* include codes from system $v3-ParticipationType where concept is-a #ADM
-* include codes from system $v3-ParticipationType where concept is-a #ATND
-* include codes from system $v3-ParticipationType where concept is-a #CON
-* include codes from system $v3-ParticipationType where concept is-a #DIS
-* include codes from system $v3-ParticipationType where concept is-a #SPRF
-* include codes from system $participant-type where concept is-a #emergency
+* $v3-ParticipationType#ADM
+* $v3-ParticipationType#ATND
+* $v3-ParticipationType#CON
+* $v3-ParticipationType#DIS
+* $v3-ParticipationType#SPRF
+* $participant-type#emergency

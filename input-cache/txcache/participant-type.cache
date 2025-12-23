@@ -1,0 +1,443 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "version" : "4.0.1",
+  "code" : "emergency"
+}, "valueSet" :null, "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "Emergency",
+  "code" : "emergency",
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "version" : "4.0.1",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/participant-type|4.0.1#emergency (\"\")]\"\r\n16 0    : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/participant-type|4.0.1#emergency\"\r\n16 0    : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1)\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "MSG_DRAFT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 from hl7.fhir.r4.core#4.0.1"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "code" : "emergency"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--6", "version": "0.1.2-ballot", "langs":"es-CL", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "es-CL"
+  }]
+}}####
+v: {
+  "display" : "Emergency",
+  "code" : "emergency",
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "version" : "1.0.1",
+  "severity" : "error",
+  "error" : "The provided code 'http://terminology.hl7.org/CodeSystem/participant-type#emergency' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--6|0.1.2-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--6|0.1.2-ballot for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=es-CL, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"(http://terminology.hl7.org/CodeSystem/participant-type)(concept<<emergency)\"\r\n16 0    : 0ms  : CodeSystem found: \"http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1)\"\r\n16 0    : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/participant-type#emergency (\"\")]\"\r\n16 0    : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/participant-type#emergency\"\r\n16 0    : 0ms  : CodeSystem found: http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1) for http://terminology.hl7.org/CodeSystem/participant-type|4.0.1\r\n16 0    : 0ms  : check code in (http://terminology.hl7.org/CodeSystem/participant-type)(concept<<emergency) at Coding\r\n16 0    : 0ms  : Filter \"concept<<emergency\": Code \"emergency\" not found in http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "MSG_DRAFT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 from hl7.fhir.r4.core#4.0.1"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://terminology.hl7.org/CodeSystem/participant-type#emergency' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--6|0.1.2-ballot'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+      "version" : "4.0.1",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "emergency"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:e55364ac-21c8-4ce5-bb4c-377f213db7b4",
+    "timestamp" : "2025-12-10T18:27:10.260Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/participant-type|4.0.1"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/participant-type|4.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+      "code" : "emergency",
+      "display" : "Emergency"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "version" : "4.0.1",
+  "code" : "emergency"
+}, "valueSet" :null, "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Emergency",
+  "code" : "emergency",
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "version" : "4.0.1",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes\r\n16 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n16 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n16 0    : 0ms  : Prepare include: \"()\"\r\n16 0    : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/participant-type|4.0.1#emergency (\"\")]\"\r\n16 0    : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/participant-type|4.0.1#emergency\"\r\n16 0    : 0ms  : Using CodeSystem \"http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1)\" (content = complete)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "MSG_DRAFT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 from hl7.fhir.r4.core#4.0.1"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "code" : "emergency"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--6", "version": "0.1.2-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Emergency",
+  "code" : "emergency",
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "version" : "1.0.1",
+  "severity" : "error",
+  "error" : "The provided code 'http://terminology.hl7.org/CodeSystem/participant-type#emergency' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--6|0.1.2-ballot'",
+  "class" : "UNKNOWN",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n15 15   : 0ms  : Analysing https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--6|0.1.2-ballot for validation purposes\r\n15 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n15 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n15 0    : 0ms  : Prepare include: \"(http://terminology.hl7.org/CodeSystem/participant-type)(concept<<emergency)\"\r\n15 0    : 0ms  : CodeSystem found: \"http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1)\"\r\n15 0    : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/participant-type#emergency (\"\")]\"\r\n15 0    : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/participant-type#emergency\"\r\n31 16   : 16ms : CodeSystem found: http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1) for http://terminology.hl7.org/CodeSystem/participant-type|4.0.1\r\n31 0    : 16ms : check code in (http://terminology.hl7.org/CodeSystem/participant-type)(concept<<emergency) at Coding\r\n31 0    : 16ms : Filter \"concept<<emergency\": Code \"emergency\" not found in http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1)\r\n",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "MSG_DRAFT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 from hl7.fhir.r4.core#4.0.1"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "None_of_the_provided_codes_are_in_the_value_set_one"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "error",
+    "code" : "code-invalid",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "not-in-vs"
+      }],
+      "text" : "The provided code 'http://terminology.hl7.org/CodeSystem/participant-type#emergency' was not found in the value set 'https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--6|0.1.2-ballot'"
+    },
+    "location" : ["Coding.code"],
+    "expression" : ["Coding.code"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+      "version" : "4.0.1",
+      "concept" : [{
+        "code" : "emergency"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ad88dc77-7a62-4eaf-b475-851d6e42703d",
+    "timestamp" : "2025-12-10T19:26:53.435Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : false
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/participant-type|4.0.1"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/participant-type|4.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+      "code" : "emergency",
+      "display" : "Emergency"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "code" : "emergency"
+}, "url": "https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--2", "version": "0.1.2-ballot", "langs":"en", "useServer":"true", "useClient":"false", "guessSystem":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en"
+  }]
+}}####
+v: {
+  "display" : "Emergency",
+  "code" : "emergency",
+  "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+  "version" : "4.0.1",
+  "server" : "https://tx.hl7chile.cl/r4",
+  "diagnostics" : "0 0 : start\r\n31 31   : 0ms  : Analysing https://interoperabilidad.minsal.cl/fhir/ig/urgencia/ValueSet/TipoParticipanteEncuentroUrgencia--2|0.1.2-ballot for validation purposes\r\n31 0    : 0ms  : Parameters: disp-lang=en, default-to-latest\r\n31 0    : 0ms  : Version Rules: system-version:http://snomed.info/sct#http://snomed.info/sct/900000000000207008/version/20251101\r\n31 0    : 0ms  : Prepare include: \"(http://terminology.hl7.org/CodeSystem/participant-type)(emergency)\"\r\n31 0    : 0ms  : CodeSystem found: \"http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1)\"\r\n31 0    : 0ms  : Validate \"[http://terminology.hl7.org/CodeSystem/participant-type#emergency (\"\")]\"\r\n31 0    : 0ms  : Check \"http://terminology.hl7.org/CodeSystem/participant-type#emergency\"\r\n31 0    : 0ms  : CodeSystem found: http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1) for http://terminology.hl7.org/CodeSystem/participant-type|4.0.1\r\n31 0    : 0ms  : check code in (http://terminology.hl7.org/CodeSystem/participant-type)(emergency) at Coding\r\n31 0    : 0ms  : Code \"emergency\" found in http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 (from hl7.fhir.r4.core#4.0.1)\r\n",
+  "unknown-systems" : "",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "MSG_DRAFT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://tx.hl7chile.cl/r4"
+    }],
+    "severity" : "information",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "status-check"
+      }],
+      "text" : "Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/participant-type|4.0.1 from hl7.fhir.r4.core#4.0.1"
+    }
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+      "version" : "4.0.1",
+      "concept" : [{
+        "code" : "emergency"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : tx.hl7chile.cl,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:a2d0c9a9-3ee9-4a7b-9972-a185b7113e94",
+    "timestamp" : "2025-12-10T19:29:46.619Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/participant-type|4.0.1"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://terminology.hl7.org/CodeSystem/participant-type|4.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/participant-type",
+      "code" : "emergency",
+      "display" : "Emergency"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

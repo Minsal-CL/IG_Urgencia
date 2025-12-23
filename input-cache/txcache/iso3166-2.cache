@@ -9,13 +9,13 @@
   }
 }}####
 e: {
-  "source" : tx.fhir.org,
+  "source" : tx.hl7chile.cl,
   "valueSet" : {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:596d1e51-99de-4689-8a71-470bcf269e6e",
-    "timestamp" : "2025-10-03T17:46:05.683Z",
+    "identifier" : "urn:uuid:9f98f436-1db6-427c-8f08-a031eeab2a9c",
+    "timestamp" : "2025-12-10T18:28:27.941Z",
     "total" : 5099,
     "offset" : 0,
     "parameter" : [{
@@ -36,10 +36,6 @@ e: {
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "urn:iso:std:iso:3166:-2|2021"
-    },
-    {
-      "name" : "version",
       "valueUri" : "urn:iso:std:iso:3166:-2|2021"
     }],
     "contains" : [{

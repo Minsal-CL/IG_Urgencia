@@ -6,7 +6,7 @@
   "name" : "FHIRReferenceServerTerminologyCapabilities",
   "title" : "FHIR Reference Server Terminology Capability Statement",
   "status" : "active",
-  "date" : "2025-12-09T14:20:51.570Z",
+  "date" : "2025-12-10T18:22:09.040Z",
   "contact" : [{
     "telecom" : [{
       "system" : "other",
@@ -12430,12 +12430,6 @@
     "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/nid/CodeSystem/PuebloOriginarioCS",
     "version" : [{
       "code" : "0.4.8"
-    }]
-  },
-  {
-    "uri" : "https://interoperabilidad.minsal.cl/fhir/ig/r2bo/CodeSystem/r2bo-grado-diferenciacion-CS",
-    "version" : [{
-      "code" : "0.1.1-draft"
     }]
   },
   {
